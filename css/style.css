@@ -1,5 +1,102 @@
 /* font-family: 'Raleway', sans-serif;  */
-
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: "Open Sans", sans-serif;
 }
+.list {
+  list-style: none;
+}
+
+/* HEADER */
+.header {
+}
+.header_logo {
+}
+.logo_img {
+}
+.header_nav {
+}
+.header_list {
+}
+.header_item {
+}
+.header_link {
+}
+.header_tel {
+}
+.header_btn {
+}
+
+/* HERO */
+.hero {
+}
+.section {
+}
+.hero_list {
+}
+.hero_item {
+}
+.hero_link {
+}
+.hero_top-text {
+}
+.hero_title {
+}
+.hero_bottom-text {
+}
+
+/* ABOUT */
+.about {
+}
+.about_list {
+}
+.about_item {
+}
+.about_top-text {
+}
+.about_title {
+}
+.about_bottom-text {
+}
+.about_text {
+}
+.about_btn {
+}
+
+/* PRICES */
+.prices {
+}
+.prices_top-text {
+}
+.prices_title {
+}
+.prices_list {
+}
+.prices_item {
+}
+.prices_item-text {
+}
+.prices_btn {
+}
+
+/* BENEFITS */
+.benefits {
+}
+.benefits_list {
+}
+.benefits_item {
+}
+.benefits_count {
+}
+.benefits_item-text {
+}
+.benefits_top-text {
+}
+.benefits_title {
+}
+.benefits_bottom-text {
+}
+
+/*  */
