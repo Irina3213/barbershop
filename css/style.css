@@ -2,15 +2,57 @@
 * {
   box-sizing: border-box;
 }
+:root {
+  --btn-color: #ffffff;
+  --tel: #ffffff;
+  --main-btn-color: #ffffff;
+  --second-btn-color: #303030;
+  --main-title-color: #ffffff;
+  --second-title-color: #303040;
+  --accent-color: #ff6c00;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
 }
 .list {
   list-style: none;
 }
+.link {
+  text-decoration: none;
+}
+
+.top_text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+}
+.btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+.bottom_text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+}
 
 /* HEADER */
 .header {
+  background-color: gray;
 }
 .header_logo {
 }
@@ -22,14 +64,26 @@ body {
 }
 .header_item {
 }
-.header_link {
-}
+.header_link,
 .header_tel {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: var(--tel);
 }
-.header_btn {
+.header_link:hover,
+.header_link:focus,
+.header_tel:hover,
+.header_tel:focus {
+  color: var(--accent-color);
 }
 
-/* HERO */
+.header_btn {
+  color: var(--btn-color);
+}
+
+/* -------------HERO---------- */
 .hero {
 }
 .section {
@@ -39,15 +93,36 @@ body {
 .hero_item {
 }
 .hero_link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: var(--second-title-color);
 }
-.hero_top-text {
-}
-.hero_title {
-}
-.hero_bottom-text {
+.hero_link:hover,
+.hero_link:focus {
+  color: var(--accent-color);
 }
 
-/* ABOUT */
+.hero_content {
+  background-color: #303030;
+}
+.hero_top-text {
+  color: rgba(157, 164, 189, 0.6);
+}
+.hero_title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.18px;
+  letter-spacing: 0.05em;
+  color: var(--main-title-color);
+}
+.hero_bottom-text {
+  color: #9da4bd;
+}
+
+/* --------ABOUT -----------------*/
 .about {
 }
 .about_list {
@@ -55,30 +130,46 @@ body {
 .about_item {
 }
 .about_top-text {
+  color: #303030;
 }
 .about_title {
+  color: var(--second-title-color);
 }
 .about_bottom-text {
+  color: #555555;
 }
 .about_text {
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  color: #555555;
 }
 .about_btn {
+  color: #303030;
 }
 
 /* PRICES */
 .prices {
+  background-color: #303030;
 }
 .prices_top-text {
+  color: rgba(157, 164, 189, 0.6);
 }
 .prices_title {
+  color: var(--main-title-color);
 }
 .prices_list {
 }
 .prices_item {
 }
 .prices_item-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
 }
 .prices_btn {
+  color: #ffffff;
 }
 
 /* BENEFITS */
@@ -88,15 +179,48 @@ body {
 }
 .benefits_item {
 }
-.benefits_count {
+.benefits_item-count {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: calc(57 / 42);
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #303030;
 }
 .benefits_item-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-align: center;
+  color: #303030;
 }
 .benefits_top-text {
+  color: #303030;
 }
 .benefits_title {
+  color: var(--second-title-color);
 }
 .benefits_bottom-text {
+  color: #555555;
 }
 
-/*  */
+/* ------------MASTERS--------- */
+.masters {
+}
+.masters_top-text {
+}
+
+.masters_title {
+}
+
+.masters_list {
+}
+
+.masters_item {
+}
+.masters_img {
+}
+.masters_subtitle {
+}
+.masters_item-text {
+}
