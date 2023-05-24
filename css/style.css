@@ -21,8 +21,20 @@ body {
 .link {
   text-decoration: none;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
 
-.top_text {
+  white-space: nowrap;
+  clip-path: inset(50%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+. .top_text {
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
@@ -208,9 +220,11 @@ body {
 .masters {
 }
 .masters_top-text {
+  color: #303030;
 }
 
 .masters_title {
+  color: var(--second-title-color);
 }
 
 .masters_list {
@@ -220,7 +234,104 @@ body {
 }
 .masters_img {
 }
-.masters_subtitle {
+.masters_item-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: calc(25 / 18);
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #303030;
 }
 .masters_item-text {
+  font-size: 14px;
+  line-height: calc(19 / 14);
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+
+/*------ GALLERY--------- */
+.gallery {
+}
+.gallery-top-text {
+  color: #303030;
+}
+.top-text {
+}
+
+.gallery_list {
+}
+.list {
+}
+.gallery_item {
+}
+
+/* ------ONLINE--- */
+.online {
+  background-color: #303030;
+}
+
+.online_title {
+  color: var(--main-title-color);
+}
+
+/* ------CONTACTS---- */
+.contacts {
+  background-color: #303030;
+}
+.contacts__title {
+  color: var(--main-title-color);
+}
+.contacts__address {
+  font-style: normal;
+}
+.contacts__list {
+}
+.contacts__item {
+}
+.contacts__link {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+.contacts__subtitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.contacts__time {
+  font-style: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+
+/* ----FOOTER-- */
+.footer {
+}
+.footer__copy {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: #9da4bd;
+}
+.footer__list {
+}
+.footer__item {
+}
+.footer__link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: #303030;
+}
+.footer__link:hover,
+.footer__link:focus {
+  color: var(--accent-color);
 }
